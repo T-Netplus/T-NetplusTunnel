@@ -867,78 +867,58 @@ function สร้างวเลสSub(ไอดีผู้ใช้_เส้
 }
 
 const cn_hostnames = [
-	'weibo.com',                // Weibo - A popular social media platform
-	'www.baidu.com',            // Baidu - The largest search engine in China
-	'www.qq.com',               // QQ - A widely used instant messaging platform
-	'www.taobao.com',           // Taobao - An e-commerce website owned by Alibaba Group
-	'www.jd.com',               // JD.com - One of the largest online retailers in China
-	'www.sina.com.cn',          // Sina - A Chinese online media company
-	'www.sohu.com',             // Sohu - A Chinese internet service provider
-	'www.tmall.com',            // Tmall - An online retail platform owned by Alibaba Group
-	'www.163.com',              // NetEase Mail - One of the major email providers in China
-	'www.zhihu.com',            // Zhihu - A popular question-and-answer website
-	'www.youku.com',            // Youku - A Chinese video sharing platform
-	'www.xinhuanet.com',        // Xinhua News Agency - Official news agency of China
-	'www.douban.com',           // Douban - A Chinese social networking service
-	'www.meituan.com',          // Meituan - A Chinese group buying website for local services
-	'www.toutiao.com',          // Toutiao - A news and information content platform
-	'www.ifeng.com',            // iFeng - A popular news website in China
-	'www.autohome.com.cn',      // Autohome - A leading Chinese automobile online platform
-	'www.360.cn',               // 360 - A Chinese internet security company
-	'www.douyin.com',           // Douyin - A Chinese short video platform
-	'www.kuaidi100.com',        // Kuaidi100 - A Chinese express delivery tracking service
-	'www.wechat.com',           // WeChat - A popular messaging and social media app
-	'www.csdn.net',             // CSDN - A Chinese technology community website
-	'www.imgo.tv',              // ImgoTV - A Chinese live streaming platform
-	'www.aliyun.com',           // Alibaba Cloud - A Chinese cloud computing company
-	'www.eyny.com',             // Eyny - A Chinese multimedia resource-sharing website
-	'www.mgtv.com',             // MGTV - A Chinese online video platform
-	'www.xunlei.com',           // Xunlei - A Chinese download manager and torrent client
-	'www.hao123.com',           // Hao123 - A Chinese web directory service
-	'www.bilibili.com',         // Bilibili - A Chinese video sharing and streaming platform
-	'www.youth.cn',             // Youth.cn - A China Youth Daily news portal
-	'www.hupu.com',             // Hupu - A Chinese sports community and forum
-	'www.youzu.com',            // Youzu Interactive - A Chinese game developer and publisher
-	'www.panda.tv',             // Panda TV - A Chinese live streaming platform
-	'www.tudou.com',            // Tudou - A Chinese video-sharing website
-	'www.zol.com.cn',           // ZOL - A Chinese electronics and gadgets website
-	'www.toutiao.io',           // Toutiao - A news and information app
-	'www.tiktok.com',           // TikTok - A Chinese short-form video app
-	'www.netease.com',          // NetEase - A Chinese internet technology company
-	'www.cnki.net',             // CNKI - China National Knowledge Infrastructure, an information aggregator
-	'www.zhibo8.cc',            // Zhibo8 - A website providing live sports streams
-	'www.zhangzishi.cc',        // Zhangzishi - Personal website of Zhang Zishi, a public intellectual in China
-	'www.xueqiu.com',           // Xueqiu - A Chinese online social platform for investors and traders
-	'www.qqgongyi.com',         // QQ Gongyi - Tencent's charitable foundation platform
-	'www.ximalaya.com',         // Ximalaya - A Chinese online audio platform
-	'www.dianping.com',         // Dianping - A Chinese online platform for finding and reviewing local businesses
-	'www.suning.com',           // Suning - A leading Chinese online retailer
-	'www.zhaopin.com',          // Zhaopin - A Chinese job recruitment platform
-	'www.jianshu.com',          // Jianshu - A Chinese online writing platform
-	'www.mafengwo.cn',          // Mafengwo - A Chinese travel information sharing platform
-	'www.51cto.com',            // 51CTO - A Chinese IT technical community website
-	'www.qidian.com',           // Qidian - A Chinese web novel platform
-	'www.ctrip.com',            // Ctrip - A Chinese travel services provider
-	'www.pconline.com.cn',      // PConline - A Chinese technology news and review website
-	'www.cnzz.com',             // CNZZ - A Chinese web analytics service provider
-	'www.telegraph.co.uk',      // The Telegraph - A British newspaper website	
-	'www.ynet.com',             // Ynet - A Chinese news portal
-	'www.ted.com',              // TED - A platform for ideas worth spreading
-	'www.renren.com',           // Renren - A Chinese social networking service
-	'www.pptv.com',             // PPTV - A Chinese online video streaming platform
-	'www.liepin.com',           // Liepin - A Chinese online recruitment website
-	'www.881903.com',           // 881903 - A Hong Kong radio station website
-	'www.aipai.com',            // Aipai - A Chinese online video sharing platform
-	'www.ttpaihang.com',        // Ttpaihang - A Chinese celebrity popularity ranking website
-	'www.quyaoya.com',          // Quyaoya - A Chinese online ticketing platform
-	'www.91.com',               // 91.com - A Chinese software download website
-	'www.dianyou.cn',           // Dianyou - A Chinese game information website
-	'www.tmtpost.com',          // TMTPost - A Chinese technology media platform
-	'www.douban.com',           // Douban - A Chinese social networking service
-	'www.guancha.cn',           // Guancha - A Chinese news and commentary website
-	'www.so.com',               // So.com - A Chinese search engine
-	'www.58.com',               // 58.com - A Chinese classified advertising website
-	'www.cnblogs.com',          // Cnblogs - A Chinese technology blog community
-	'www.cntv.cn',              // CCTV - China Central Television official website
-	'www.secoo.com',            // Secoo - A Chinese luxury e-commerce platform
+	'sarafishiraz.com',                // Weibo - A popular social media platform
+	'pars-p.com',            // Baidu - The largest search engine in China
+	'pierre.ir',               // QQ - A widely used instant messaging platform
+	'iranbet365.com',           // Taobao - An e-commerce website owned by Alibaba Group
+	'cyspersa.com',               // JD.com - One of the largest online retailers in China
+	'rj12.niloblog.com',          // Sina - A Chinese online media company
+	'ahan20.com',             // Sohu - A Chinese internet service provider
+	'homezy.ir',            // Tmall - An online retail platform owned by Alibaba Group
+	'4goosh.ir',              // NetEase Mail - One of the major email providers in China
+	'sainacharm.com',            // Zhihu - A popular question-and-answer website
+	'faz2funn.rozfa.com',            // Youku - A Chinese video sharing platform
+	'siya.niloblog.com',        // Xinhua News Agency - Official news agency of China
+	'setadbook.ir',           // Douban - A Chinese social networking service
+	'location-alpes.eu',          // Meituan - A Chinese group buying website for local services
+	'parsianagent.ir',          // Toutiao - A news and information content platform
+	'chimentahvieh.com',            // iFeng - A popular news website in China
+	'sa24.ir',      // Autohome - A leading Chinese automobile online platform
+	'waghe-e.ir',               // 360 - A Chinese internet security company
+	'narin.vcp.ir',           // Douyin - A Chinese short video platform
+	'gama.ir',        // Kuaidi100 - A Chinese express delivery tracking service
+	'chashmak.ir',           // WeChat - A popular messaging and social media app
+	'sabzlearn.ir',             // CSDN - A Chinese technology community website
+	'tapsell.ir',              // ImgoTV - A Chinese live streaming platform
+	'adivery.com',           // Alibaba Cloud - A Chinese cloud computing company
+	'mediaad.org',             // Eyny - A Chinese multimedia resource-sharing website
+	'metrix.ir',             // MGTV - A Chinese online video platform
+	'enama.ir',           // Xunlei - A Chinese download manager and torrent client
+	'zula.ir',           // Hao123 - A Chinese web directory service
+	'jahansanatnews.ir',         // Bilibili - A Chinese video sharing and streaming platform
+	'melonmusic.ir',             // Youth.cn - A China Youth Daily news portal
+	'serverpars.com',             // Hupu - A Chinese sports community and forum
+	'ramzinex.com',            // Youzu Interactive - A Chinese game developer and publisher
+	'shenasname.ir',             // Panda TV - A Chinese live streaming platform
+	'lastsecond.ir',            // Tudou - A Chinese video-sharing website
+	'limoo.host',           // ZOL - A Chinese electronics and gadgets website
+	'cinemabartar.ir',           // Toutiao - A news and information app
+	'iranhost.com',           // TikTok - A Chinese short-form video app
+	'downloadefilm.ir',          // NetEase - A Chinese internet technology company
+	'musicshah.ir',             // CNKI - China National Knowledge Infrastructure, an information aggregator
+	'dorna-music.ir',            // Zhibo8 - A website providing live sports streams
+	'kifpool.me',        // Zhangzishi - Personal website of Zhang Zishi, a public intellectual in China
+	'adexo.ir',           // Xueqiu - A Chinese online social platform for investors and traders
+	'pushq.ir',         // QQ Gongyi - Tencent's charitable foundation platform
+	'soonami.ir',         // Ximalaya - A Chinese online audio platform
+	'rtl-theme.com',         // Dianping - A Chinese online platform for finding and reviewing local businesses
+	'andishemoaser.ir',           // Suning - A leading Chinese online retailer
+	'avval.ir',          // Zhaopin - A Chinese job recruitment platform
+	'arzonhost.ir',          // Jianshu - A Chinese online writing platform
+	'mizbanfa.net',          // Mafengwo - A Chinese travel information sharing platform
+	'rouzegarekhodro.ir',            // 51CTO - A Chinese IT technical community website
+	'likeemusic.ir',           // Qidian - A Chinese web novel platform
+	'avalfars.ir',            // Ctrip - A Chinese travel services provider
+	'esanj.ir',      // PConline - A Chinese technology news and review website
+	'fitclub.ir',             // CNZZ - A Chinese web analytics service provider
 ];
